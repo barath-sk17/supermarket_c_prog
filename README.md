@@ -24,7 +24,7 @@ To run this Supermarket Billing System, follow the steps below:
 1. Clone the project repository from GitHub:
 
    ```shell
-   git clone https://github.com/example/supermarket-billing.git
+   git clone https://github.com/barath-sk17/supermarket_c_prog.git
    ```
 
 2. Compile the source code using a C compiler:
