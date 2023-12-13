@@ -1077,7 +1077,7 @@ void del(struct details det)
     rewind(cust_del2);
     while(!(feof(cust_del2)))
     {
-        fscanf(del2,"%s\n%s\n",det.name,det.paswrd);
+        fscanf(del2,"60%s\n%60s\n",det.name,det.paswrd);
         fprintf(del1,"%s\n%s\n",det.name,det.paswrd);
     }
     fclose(cust_del1);
